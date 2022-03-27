@@ -34,10 +34,7 @@
 // 1 <= m + n <= 2000
 // -10^6 <= nums1[i], nums2[i] <= 10^6
 
-function findMedianSortedArrays_(
-  nums1: number[],
-  nums2: number[]
-): number | undefined {
+function findMedianSortedArrays_(nums1: number[], nums2: number[]): number | undefined {
   const medianLocation = (nums1.length + nums2.length - 1) / 2
   const result = []
 
@@ -53,10 +50,7 @@ function findMedianSortedArrays_(
   }
 }
 
-function findMedianSortedArrays(
-  nums1: number[],
-  nums2: number[]
-): number | undefined {
+function findMedianSortedArrays(nums1: number[], nums2: number[]): number | undefined {
   const result = nums1.concat(nums2).sort((a, b) => a - b)
   const medianLocation = (result.length - 1) / 2
 
