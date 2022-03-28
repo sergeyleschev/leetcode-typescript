@@ -29,7 +29,7 @@ type Group = [number, string]
 const results: { [key: string]: string } = { "1": "1" }
 
 function countAndSay(n: number): string {
-  if (n > 30) { throw new Error(`Max n exceeded`) }
+  if (n > 30) { throw new Error("Max n exceeded") }
 
   if (!results[n]) { results[n] = sayGroup(getGroups(countAndSay(n - 1))) }
   return results[n]
