@@ -45,7 +45,7 @@ function insertionSortList(head: ListNode | null): ListNode | null {
   let output = head
   let curr = head.next
 
-  head.next = null // Unlink
+  head.next = null
 
   while (curr) {
     const next = curr.next
