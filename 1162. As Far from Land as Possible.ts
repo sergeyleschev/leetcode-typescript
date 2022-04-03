@@ -33,13 +33,12 @@ function maxDistance(grid: number[][]): number {
 		}
 	}
 
-	if (lands.length === 0) return max
+	if (lands.length === 0) { return max }
 
 	for (let row = 0; row < size; row++) {
 		for (let col = 0; col < size; col++) {
 			if (grid[row][col] === 0) {
 				const nearest = nearestLand(lands, [row, col])
-
 				if (nearest > max) { max = nearest }
 			}
 		}
@@ -53,7 +52,6 @@ function nearestLand(lands: Point[], point: Point) {
 
 	for (const land of lands) {
 		const dist = distance(land, point)
-
 		if (dist < nearest) { nearest = dist }
 	}
 
