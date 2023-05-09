@@ -1,4 +1,4 @@
-// Solution @ Sergey Leschev, Belarusian State University
+// Solution @ Sergey Leschev
 
 // 9. Palindrome Number
 // Given an integer x, return true if x is palindrome integer.
