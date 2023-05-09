@@ -1,4 +1,4 @@
-// Solution @ Sergey Leschev, Belarusian State University
+// Solution @ Sergey Leschev
 
 // 5. Longest Palindromic Substring
 // Given a string s, return the longest palindromic substring in s.
