@@ -7,3 +7,5 @@
 **Languages**: TypeScript, Shell, Database (T-SQL, PL/SQL, MySQL), Concurrency (Python3).
 
 **Algorithms**: linked lists, binary search, hash table, queue/stack, dfs/bfs, sort, heap/hash, two pointers, sliding window, tree, greedy problems etc.
+
+Other Swift solutions: https://github.com/sergeyleschev/leetcode-swift
