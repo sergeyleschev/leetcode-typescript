@@ -1,8 +1,8 @@
 // Solution by Sergey Leschev
 // 1574. Shortest Subarray to be Removed to Make Array Sorted
 
-// Time: O(N)
-// Space: O(1)
+// Time complexity: O(N)
+// Space complexity: O(1)
 
 function findLengthOfShortestSubarray(arr: number[]): number {
     const n = arr.length
